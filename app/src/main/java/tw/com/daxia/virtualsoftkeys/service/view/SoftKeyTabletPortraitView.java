@@ -30,9 +30,6 @@ public class SoftKeyTabletPortraitView extends SoftKeyView {
      void initBaseView() {
         LayoutInflater li = LayoutInflater.from(accessibilityService);
         this.baseView = li.inflate(R.layout.navigation_bar_t_l, null, true);
-        this.IB_button_home = (ImageButton) baseView.findViewById(R.id.IB_button_home);
-        this.IB_button_start = (ImageButton) baseView.findViewById(R.id.IB_button_start);
-        this.IB_button_end = (ImageButton) baseView.findViewById(R.id.IB_button_end);
     }
 
     @Override
